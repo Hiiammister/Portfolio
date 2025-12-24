@@ -11,3 +11,4 @@ const Navbar = () => {
 }
 
 export default Navbar
+//start from 19:49-youtube :)
