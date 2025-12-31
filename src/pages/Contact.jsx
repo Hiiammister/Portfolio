@@ -12,9 +12,27 @@ const Contact = () => {
   const handleSubmit=(e)=>{
     e.preventDefault();
     setIsLoading(true);
-    emailjs.sendForm(
-      
-    )
+    emailjs.send(
+      import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+      import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+      {
+        from_name: form.name,
+        to_name: "Aditya",
+        from_email: form.email,
+        to_email:'adityaborkar1172@gmail.com',
+        message:form.message
+
+      },
+      import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY 
+    ).then(()=>{
+      setIsLoading(false);
+      //show alert
+      //cancel alert
+    }).catch((error)=>{
+      setIsLoading(false);
+      console.log(error);
+      //show error msg.
+    })
   };
   return (
     <section className="relative flex lg:flex-row flex-col max-container">
