@@ -30,10 +30,18 @@ const renderContent={
         />
     ),
     3: (
-        <h1>3</h1>
+        <InfoBox 
+        text="Led multiple projects to success over the years. Curious about checking them out ?"
+        link="/projects"
+        btnText="Visit my portfolio"
+        />
     ),
     4: (
-        <h1>4</h1>
+        <InfoBox 
+        text="Need a project done ? Just a few keystrokes away."
+        link="/contact"
+        btnText="Let's Talk."
+        />
     ),
     
 }
