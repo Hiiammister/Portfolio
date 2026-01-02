@@ -33,11 +33,6 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: express,
-        name: "Express",
-        type: "Backend",
-    },
-    {
         imageUrl: git,
         name: "Git",
         type: "Version Control",
@@ -63,21 +58,6 @@ export const skills = [
         type: "Database",
     },
     {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
-    {
-        imageUrl: mui,
-        name: "Material-UI",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nextjs,
-        name: "Next.js",
-        type: "Frontend",
-    },
-    {
         imageUrl: nodejs,
         name: "Node.js",
         type: "Backend",
@@ -86,11 +66,6 @@ export const skills = [
         imageUrl: react,
         name: "React",
         type: "Frontend",
-    },
-    {
-        imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
     },
     {
         imageUrl: sass,
@@ -173,7 +148,7 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/Hiiammister',
     },
     {
         name: 'LinkedIn',
@@ -186,43 +161,36 @@ export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Spatial Temporal Analysis Learning',
+        description: 'Developed a system which analyzes and visualizes spatiotemporal data using Python by generating heatmaps, trajectory insights, temporal patterns, and clustering on synthetic datasets.',
+        link: 'https://github.com/Hiiammister/Spatial_Temporal_Analysis_Learning.git',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'Book Shop using Tkinter',
+        description: 'A Python GUI book shop application built with Tkinter and SQLite that manages books in four sections (manga, fiction, novels, horror) with an interactive interface and database support.',
+        link: 'https://github.com/Hiiammister/Book-Shop-using-tkinter.git',
     },
     {
         iconUrl: car,
         theme: 'btn-back-blue',
         name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        description: 'A game developed in Game-Maker Studio which uses narrative-driven project exploring the story of Cynisca, the first woman to win at the ancient Olympic Games, through interactive fiction or game mechanics built in code (The Fate of Cynisca).',
+        link: 'https://github.com/AlvajoyAsante/The-Fate-of-Cynisca.git',
     },
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
+        name: 'Dynamic Food Price Prediction System',
+        description: 'A Python project that predicts and adjusts dynamic prices for food items like vadapav and samosa using machine learning models (e.g., Linear Regression and Random Forest) and visualizes price outputs interactively.',
         link: 'https://github.com/adrianhajdin/social_media_app',
     },
     {
         iconUrl: estate,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
+        name: 'Weather Forecasting Application',
+        description: 'A web application that uses the OpenWeather API to fetch and display real-time weather forecasts for user-selected locations with an intuitive interface.',
         link: 'https://github.com/adrianhajdin/projects_realestate',
-    },
-    {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
     }
 ];
