@@ -13,7 +13,7 @@ const Navbar = () => {
         <NavLink to="/projects" className={({isActive})=>isActive ? 'text-blue-500': 'text-black-500'}>
           Projects
         </NavLink>
-        <NavLink to="/Certifications" className={({isActive})=>isActive ? 'text-blue-500': 'text-black-500'}>
+        <NavLink to="/certifications" className={({isActive})=>isActive ? 'text-blue-500': 'text-black-500'}>
           Certifications
         </NavLink>
 
@@ -23,4 +23,3 @@ const Navbar = () => {
 }
 
 export default Navbar
-//start from 19:49-youtube :)
