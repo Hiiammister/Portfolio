@@ -148,3 +148,88 @@ export const projects = [
         link: 'https://github.com/adrianhajdin/projects_realestate',
     }
 ];
+export const certifications = [
+  {
+    id: 1,
+    title: "Generative AI Fundamentals",
+    issuer: "Google Cloud",
+    theme: "btn-back-yellow",
+    date: "2023",
+    badgeUrl: "https://cdn.qwiklabs.com/epA3EglyiDMh%2FqUuu0h2RU6ehFnZlmxSn6bitOZdW9I%3D", // Replace with actual badge image URL
+    verificationUrl: "https://www.skills.google/public_profiles/7783a32a-9ec8-4665-b1e2-6226fb6a20af/badges/5375472",
+  },
+  {
+    id: 2,
+    title: "Build a Secure Google Cloud Network",
+    issuer: "Google Cloud",
+    theme: "btn-glow",
+    date: "2023",
+    badgeUrl: "https://cdn.qwiklabs.com/R0PY7VGAcAz5JmrFUtfzHXnZppltPT8QE2efaWhq4Ew%3D",
+    verificationUrl: "https://www.skills.google/public_profiles/7783a32a-9ec8-4665-b1e2-6226fb6a20af/badges/5374365",
+  },
+  {
+    id: 3,
+    title: "Perform Foundational Infras. Tasks in Google Cloud`",
+    issuer: "Google Cloud",
+    theme: "btn-glow",
+    date: "2023",
+    badgeUrl: "https://cdn.qwiklabs.com/J%2F2cMSaiTVMQHOAlZpd%2BoEWBsyqegUpe0%2Fl3k26abvs%3D",
+    verificationUrl: "https://www.skills.google/public_profiles/7783a32a-9ec8-4665-b1e2-6226fb6a20af/badges/5356102",
+  },
+  {
+    id: 4,
+    title: "Create and Manage Cloud Resources",
+    issuer: "Google Cloud",
+    theme: "btn-glow",
+    date: "2023",
+    badgeUrl: "https://cdn.qwiklabs.com/sRCCMArUUjM9DvfPlVP%2FtvTR1dzfA6UfA%2FS7Ps3Zp8o%3D",
+    verificationUrl: "https://www.skills.google/public_profiles/7783a32a-9ec8-4665-b1e2-6226fb6a20af/badges/5355348",
+  },
+  {
+    id: 5,
+    title: "Data, ML, and AI in Google Cloud",
+    issuer: "Google Cloud",
+    theme: "btn-glow",
+    date: "2023",
+    badgeUrl: "https://cdn.qwiklabs.com/px5phE2bWY%2FDSwKkP2JFKT8tbXio8MHkd%2BqwSKJ1K%2F0%3D",
+    verificationUrl: "https://www.skills.google/public_profiles/7783a32a-9ec8-4665-b1e2-6226fb6a20af/badges/5352205",
+  },
+  {
+    id: 6,
+    title: "Networking & Security in Google Cloud",
+    issuer: "Google Cloud",
+    theme: "btn-glow",
+    date: "2023",
+    badgeUrl: "https://cdn.qwiklabs.com/Vs6IHP%2FtSwK6mE4DYR6shQBqETyiPjJ7QmeP2qm794E%3D",
+    verificationUrl: "https://www.skills.google/public_profiles/7783a32a-9ec8-4665-b1e2-6226fb6a20af/badges/5328547",
+  },
+  {
+    id: 7,
+    title: "Infrastructure in Google Cloud",
+    issuer: "Google Cloud",
+    theme: "btn-glow",
+    date: "2023",
+    badgeUrl: "https://cdn.qwiklabs.com/KnwQTdmMFl3m0jcrSMDsEtxihMCUUcTGd4Clgjsrsf8%3D",
+    verificationUrl: "https://www.skills.google/public_profiles/7783a32a-9ec8-4665-b1e2-6226fb6a20af/badges/5287383",
+  },
+  {
+    id: 8,
+    title: "Cloud Computing Fundamentals",
+    issuer: "Google Cloud",
+    theme: "btn-glow",
+    date: "2023",
+    badgeUrl: "https://cdn.qwiklabs.com/Y1kBnL6iQgHdQoHV1v0jjZJjOzgqX2w4gp0bMHuZCrk%3D",
+    verificationUrl: "https://www.skills.google/public_profiles/7783a32a-9ec8-4665-b1e2-6226fb6a20af/badges/5200433",
+  },
+  {
+    id: 9,
+    title: "Introduction to Generative AI",
+    issuer: "Google Cloud",
+    theme: "btn-glow",
+    date: "2023",
+    badgeUrl: "https://cdn.qwiklabs.com/EQ96YVRPhxwT%2BUm25F8dyHV1t3WYb7mQbxYXKipA9ik%3D",
+    verificationUrl: "https://www.skills.google/public_profiles/7783a32a-9ec8-4665-b1e2-6226fb6a20af/badges/5195335",
+  },
+
+  // Add all your earned badges
+];
