@@ -134,13 +134,6 @@ export const projects = [
         link: 'https://github.com/Hiiammister/Book-Shop-using-tkinter.git',
     },
     {
-        iconUrl: car,
-        theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'A game developed in Game-Maker Studio which uses narrative-driven project exploring the story of Cynisca, the first woman to win at the ancient Olympic Games, through interactive fiction or game mechanics built in code (The Fate of Cynisca).',
-        link: 'https://github.com/AlvajoyAsante/The-Fate-of-Cynisca.git',
-    },
-    {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
         name: 'Dynamic Food Price Prediction System',
