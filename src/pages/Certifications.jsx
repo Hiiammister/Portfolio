@@ -12,7 +12,7 @@ const Certifications = () => {
             <p>
                 Here are some of the certifications and badges I have earned through various courses and programs, showcasing my commitment to continuous learning and professional development in the field of technology.</p>
         </div>
-        <div className="mt-5 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-10">
+        <div className="mt-5 grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-10">
 
 
             {certifications.map((cert)=>(
