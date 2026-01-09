@@ -113,4 +113,3 @@ const Home = () => {
 }
 
 export default Home
-//start from 1:27:06
